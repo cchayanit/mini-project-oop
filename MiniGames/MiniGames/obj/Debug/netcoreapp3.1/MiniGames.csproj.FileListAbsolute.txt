@@ -1,0 +1,13 @@
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.exe
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.deps.json
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.runtimeconfig.json
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.runtimeconfig.dev.json
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.dll
+D:\mini-project-oop\MiniGames\MiniGames\bin\Debug\netcoreapp3.1\MiniGames.pdb
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.csprojAssemblyReference.cache
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.AssemblyInfoInputs.cache
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.AssemblyInfo.cs
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.csproj.CoreCompileInputs.cache
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.dll
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.pdb
+D:\mini-project-oop\MiniGames\MiniGames\obj\Debug\netcoreapp3.1\MiniGames.genruntimeconfig.cache
