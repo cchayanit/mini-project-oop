@@ -6,7 +6,7 @@ namespace MiniGames
 {
     class Menu
     {
-        private static void MainText()
+        private void MainText()
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("\nplease select the game\n");
@@ -16,19 +16,14 @@ namespace MiniGames
             Console.WriteLine("\n");
             Console.ResetColor();
         }
-
-
-        //public void MainStart()
-        public  void MainStart()
+        public void MainStart()
         {
-            string choice = "";
-
+            string choice ;
             do
             {
                 MainText();
                 Console.WriteLine("Enter your choice: ");
                 choice = Console.ReadLine();
-
 
                 switch (choice)
                 {
@@ -36,16 +31,14 @@ namespace MiniGames
                         Guessnum theGuess = new Guessnum();
                         theGuess.Playguess();
                         break;
-
                     case "2":
                         Circle theCircle = new Circle();
                         theCircle.Playcir();
                         break;
-
                 }
             } while (choice != "3" );
         }
-        //
-    };
+        
+    }
 }
 

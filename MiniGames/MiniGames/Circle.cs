@@ -1,18 +1,19 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace MiniGames
 {
     class Circle
     {
-        double radius;
-        double thickness = 0.5;
-        char symbol = '+';
+        private double radius;
+        private double thickness = 0.5;
+        private char symbol = '+';
 
         public void Playcir()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\nWelcome to the create circle game \n");
+            Console.ResetColor();
 
             do
             {
@@ -25,18 +26,18 @@ namespace MiniGames
                     Console.WriteLine("radius have to be positive number");
                 }
             }
-
             while (radius <= 0);
+           
 
-            Console.WriteLine();
-            double rIn = radius - thickness, rOut = radius + thickness;
+            double rIn = radius - thickness;
+            double rOut = radius + thickness;
 
             for (double y = radius; y >= -radius; y--)
             {
                 for (double x = -radius; x < rOut; x += 0.5)
                 {
                     double value = x * x + y * y;
-                    if (value >= rIn * rIn && value <= rOut * rOut)
+                    if (value >= rIn * rIn && value <= rOut * rOut) 
                     {
                         Console.Write(symbol);
                     }
@@ -47,11 +48,10 @@ namespace MiniGames
                 }
                 Console.WriteLine();
             }
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Thanks for playing");
+            Console.ResetColor();
             Console.ReadKey();
         }
-
-
     }
-
-    
 }

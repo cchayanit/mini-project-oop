@@ -4,11 +4,8 @@ namespace MiniGames
 {
 	class Program
 	{
-
 		static void Main(string[] args)
 		{
-			
-
 			Console.ForegroundColor = ConsoleColor.Blue;
 			Console.WriteLine("...........................");
 			Console.WriteLine("           @@@      ");
@@ -25,12 +22,9 @@ namespace MiniGames
 
 			Menu theGame = new Menu();
 			theGame.MainStart();
-
-							
+					
 		}
-
 	}
-
 }
 
 
